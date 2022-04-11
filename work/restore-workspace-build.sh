@@ -1,6 +1,6 @@
 #! /bin/bash
 
-i3-msg "workspace 1 build; append_layout ~/.config/i3/workspace-build.json"
+i3-msg "workspace 1 build; append_layout ~/.config/i3/work/workspace-build.json"
 
 firefox --new-window http://ep-build-server.vikra:8080/job/VK_EP_unittests#main-panel &
 firefox --new-window http://ep-build-server.vikra:8080/job/VK_EP4/ &
