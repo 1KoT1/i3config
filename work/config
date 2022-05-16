@@ -52,6 +52,8 @@ bindsym $mod+Return exec konsole --hide-menubar
 
 # Al\pplications hotkeys.
 bindsym $sup+b exec --no-startup-id firefox
+bindsym $sup+q exec --no-startup-id qtcreator
+bindsym $sup+k exec --no-startup-id keepass2
 
 # kill focused window
 bindsym $mod+Ctrl+q kill
