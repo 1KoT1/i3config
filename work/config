@@ -204,13 +204,6 @@ mode "resize" {
 
 bindsym $mod+r mode "resize"
 
-# Start i3bar to display a workspace bar (plus the system information i3status
-# finds out, if available)
-bar {
-        status_command i3status
-        font pango:monospace 16
-}
-
 # Autostart
 exec --no-startup-id yandex-disk start
 exec --no-startup-id thunderbird
