@@ -12,7 +12,7 @@
     "percent": 0.333333333333333,
     "swallows": [
        {
-       "class": "^Firefox$",
+       "class": "^firefox$",
        "instance": "^Navigator$",
        "title": "^Branches\\ \\(\\d*\\)\\ \\[VK_EP_unittests\\]\\ \\[Jenkins\\]\\ \\—\\ Mozilla\\ Firefox$",
        "window_role": "^browser$"
@@ -43,7 +43,7 @@
             "percent": 0.73,
             "swallows": [
                {
-               "class": "^Firefox$",
+               "class": "^firefox$",
                "instance": "^Navigator$",
                "title": "^VK_EP4\\ \\[Jenkins\\]\\ \\—\\ Mozilla\\ Firefox$",
                "window_role": "^browser$"
@@ -65,7 +65,7 @@
             "percent": 0.27,
             "swallows": [
                {
-               "class": "^Firefox$",
+               "class": "^firefox$",
                "instance": "^Navigator$",
                "title": "^Index\\ of\\ \\/VIKRA\\/8\\.2\\.0\\.2040\\/EP4\\/\\ \\—\\ Mozilla\\ Firefox$",
                "window_role": "^browser$"
@@ -98,7 +98,7 @@
             "percent": 0.73,
             "swallows": [
                {
-               "class": "^Firefox$",
+               "class": "^firefox$",
                "instance": "^Navigator$",
                "title": "^VK_EP5\\ \\[Jenkins\\]\\ \\—\\ Mozilla\\ Firefox$",
                "window_role": "^browser$"
@@ -120,7 +120,7 @@
             "percent": 0.27,
             "swallows": [
                {
-               "class": "^Firefox$",
+               "class": "^firefox$",
                "instance": "^Navigator$",
                "title": "^Index\\ of\\ \\/VIKRA_EP5\\/8\\.2\\.0\\.857\\/\\ \\—\\ Mozilla\\ Firefox$",
                "window_role": "^browser$"
