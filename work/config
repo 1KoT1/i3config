@@ -158,8 +158,8 @@ bindsym $mod+Ctrl+8 move container to workspace number $ws8
 bindsym $mod+Ctrl+9 move container to workspace number $ws9
 bindsym $mod+Ctrl+0 move container to workspace number $ws10
 
-set $monitor_one Virtual1
-set $monitor_two Virtual2
+set $monitor_one VGA-1
+set $monitor_two HDMI-2
 
 # Bind workspaces to monitors.
 workspace $ws1 output $monitor_one
