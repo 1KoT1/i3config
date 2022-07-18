@@ -9,8 +9,8 @@
 #
 # Please see https://i3wm.org/docs/userguide.html for a complete reference!
 
-set $mod Mod1
-set $sup Mod4
+set $mod Mod4
+#set $sup Mod4
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
@@ -55,10 +55,10 @@ focus_follows_mouse no
 #bindsym $mod+Return exec urxvt
 bindsym $mod+Return exec konsole --hide-menubar
 
-# Al\pplications hotkeys.
-bindsym $sup+b exec --no-startup-id firefox
-bindsym $sup+q exec --no-startup-id qtcreator
-bindsym $sup+k exec --no-startup-id keepass2
+# Aplications hotkeys.
+bindsym $mod+Shift+b exec --no-startup-id firefox
+bindsym $mod+Shift+q exec --no-startup-id qtcreator
+bindsym $mod+Shift+k exec --no-startup-id keepass2
 
 # kill focused window
 bindsym $mod+Ctrl+q kill
