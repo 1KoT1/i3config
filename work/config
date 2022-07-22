@@ -209,10 +209,3 @@ mode "resize" {
 
 bindsym $mod+r mode "resize"
 
-# Autostart
-exec --no-startup-id yandex-disk start
-exec --no-startup-id thunderbird
-exec --no-startup-id i3-msg "workspace $ws2; exec firefox --new-window http://gitlab.vikra/EZTV/EP_packages/-/boards/3?scope=all&utf8=%E2%9C%93&assignee_username=Vasilii_Pochkaenko"
-
-# Restore workspaces.
-exec --no-startup-id ~/.config/i3/work/restore-workspace-build.sh
