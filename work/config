@@ -56,12 +56,12 @@ focus_follows_mouse no
 bindsym $mod+Return exec konsole --hide-menubar
 
 # Aplications hotkeys.
-bindsym $mod+Shift+b exec --no-startup-id firefox
-bindsym $mod+Shift+q exec --no-startup-id qtcreator
+bindsym $mod+Ctrl+b exec --no-startup-id firefox
+bindsym $mod+Ctrl+q exec --no-startup-id qtcreator
 bindsym $mod+Ctrl+k exec --no-startup-id keepass2
 
 # kill focused window
-bindsym $mod+Ctrl+q kill
+bindsym $mod+Shift+q kill
 
 # start dmenu (a program launcher)
 bindsym $mod+d exec --no-startup-id dmenu_run
@@ -110,7 +110,7 @@ bindsym $mod+w layout tabbed
 bindsym $mod+e layout toggle split
 
 # toggle tiling / floating
-bindsym $mod+Ctrl+space floating toggle
+bindsym $mod+Shift+space floating toggle
 
 # change focus between tiling / floating windows
 bindsym $mod+space focus mode_toggle
@@ -147,16 +147,16 @@ bindsym $mod+9 workspace number $ws9
 bindsym $mod+0 workspace number $ws10
 
 # move focused container to workspace
-bindsym $mod+Ctrl+1 move container to workspace number $ws1
-bindsym $mod+Ctrl+2 move container to workspace number $ws2
-bindsym $mod+Ctrl+3 move container to workspace number $ws3
-bindsym $mod+Ctrl+4 move container to workspace number $ws4
-bindsym $mod+Ctrl+5 move container to workspace number $ws5
-bindsym $mod+Ctrl+6 move container to workspace number $ws6
-bindsym $mod+Ctrl+7 move container to workspace number $ws7
-bindsym $mod+Ctrl+8 move container to workspace number $ws8
-bindsym $mod+Ctrl+9 move container to workspace number $ws9
-bindsym $mod+Ctrl+0 move container to workspace number $ws10
+bindsym $mod+Shift+1 move container to workspace number $ws1
+bindsym $mod+Shift+2 move container to workspace number $ws2
+bindsym $mod+Shift+3 move container to workspace number $ws3
+bindsym $mod+Shift+4 move container to workspace number $ws4
+bindsym $mod+Shift+5 move container to workspace number $ws5
+bindsym $mod+Shift+6 move container to workspace number $ws6
+bindsym $mod+Shift+7 move container to workspace number $ws7
+bindsym $mod+Shift+8 move container to workspace number $ws8
+bindsym $mod+Shift+9 move container to workspace number $ws9
+bindsym $mod+Shift+0 move container to workspace number $ws10
 
 set $monitor_one VGA-1
 set $monitor_two HDMI-2
@@ -175,12 +175,12 @@ assign [class="QtCreator"] $ws3
 #assign [class="Firefox" title="^Development\\ ·\\ Boards\\ ·\\ EZTV\\ \\/\\ EP_packages\\ ·\\ GitLab\\ \\—\\ Mozilla\\ Firefox$"] $ws2
 
 # reload the configuration file
-bindsym $mod+Ctrl+c reload
+bindsym $mod+Shift+c reload
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
-bindsym $mod+Ctrl+r restart
+bindsym $mod+Shift+r restart
 # exit i3 (logs you out of your X session)
-bindsym $mod+Ctrl+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session. Press $mod+Ctrl+x' -B 'Yes, exit i3' 'i3-msg exit'"
-bindsym $mod+Ctrl+x exit
+bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session. Press $mod+Shift+x' -B 'Yes, exit i3' 'i3-msg exit'"
+bindsym $mod+Shift+x exit
 
 # resize window (you can also use the mouse for that)
 mode "resize" {
