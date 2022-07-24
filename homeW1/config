@@ -161,6 +161,7 @@ bindsym $mod+Shift+0 move container to workspace number $ws10
 
 # force a window on a named workspace
 assign [class="Thunderbird"] $ws10
+assign [class="Viber"] $ws10
 
 # reload the configuration file
 bindsym $mod+Shift+c reload
